@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Simple Quiz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-box">
+            <div id="quiz"> <!-- Added div with id "quiz" to wrap quiz content -->
+                <h1>Javascript Quiz App</h1>
+                <div class="quiz-header">
+                    <p id="progress">Questions x of y</p>
+                    <p id="count-down">10</p>
+                </div>
+                <p id="question">What is your name?</p>
+                <div class="buttons">
+                    <button class="btn" id="btn0">
+                        A. <span id="choice0"></span> <!-- Changed span ID to remove space -->
+                    </button>
+                    <button class="btn" id="btn1">
+                        B. <span id="choice1"></span> <!-- Changed span ID to remove space -->
+                    </button>
+                    <button class="btn" id="btn2">
+                        C. <span id="choice2"></span> <!-- Changed span ID to remove space -->
+                    </button>
+                    <button class="btn" id="btn3">
+                        D. <span id="choice3"></span> <!-- Changed span ID to remove space -->
+                    </button>
+                </div>
+                <hr>
+                <div>
+                    <footer>
+                        Viperactive Codezz
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Simple Quiz.js"></script>
+</body>
+</html>
