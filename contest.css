@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(master-unknown-Tz-stNLUwyU-unsplash.jpg);
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-position-x: 0PX;
+    background-size: 1360px;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    color: #fff;
+    padding: 50px 20px 10px 20px;
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+   button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #fff;
+    color: rgb(71, 95, 96);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  p.sign{
+    color: #ccc;
+    margin-bottom: 0;
+  }
+
+
+  div.navbar {
+    margin-left: 0;
+    background-color: aqua;
+    width:100%;
+
+  }
+  ul {
+    list-style-type: none;
+    vertical-align: middle;
+    display:flex;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: cadetblue;
+  }
+
+  li a{
+    margin-left: 0px;
+    text-align:left ;
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid rgb(246, 253, 253);
+    margin-right: 5px;
+    border-radius: 15px;
+    text-decoration-line: none;
+    
+  }
+
+li a:hover {
+    background-color: #fff;
+    color:rgb(71, 95, 96) ;
+    border: 2px solid rgb(71, 95, 96);
+    cursor: pointer;
+  }
+
+  div.form-container{
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    max-width: 400px;
+    margin:auto;
+    padding:20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    /* background: #f9f9f9; */
+   
+  }
+
+  .form-container input[type="text"], 
+    .form-container input[type="email"], 
+    .form-container input[type="submit"] {
+      width:100%;
+      padding:10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .form-container input[type="submit"] {
+      background:rgb(71, 95, 96);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .form-container input[type="submit"]:hover {
+      background: rgb(127, 158, 159);
+    }
